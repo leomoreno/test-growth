@@ -1,0 +1,12 @@
+<div class="container">
+  <button type="button" class="btn btn-primary" ui-sref="cars">
+    <i class="fa fa-arrow-circle-o-left"></i> Back to cars list
+  </button>
+  <h1>{{ car.car.model }} <small>{{ car.car.year }}</small></h1>
+  <small>U$ {{ car.car.value | number:0}}</small>
+  <div class="row">
+    <div class="col-sm-8 col-sm-offset-2 col-md-10 col-md-offset-1">
+      <img class="pull-right img-responsive" ng-src="assets/images/{{ car.car.photo }}" alt="{{ car.car.model }}">
+    </div>
+  </div>
+</div>
