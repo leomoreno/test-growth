@@ -1,0 +1,79 @@
+[
+  {
+    "photo": "7239.jpg",
+    "model": "Subaru BRZ",
+    "year": "2016",
+    "brand": "Subaru",
+    "value": "26190"
+  },
+  {
+    "photo": "6999.jpg",
+    "model": "Scion FR-S",
+    "year": "2016",
+    "brand": "Scion",
+    "value": "26100"
+  },
+  {
+    "photo": "6252.jpg",
+    "model": "Audi A5",
+    "year": "2016",
+    "brand": "Audi",
+    "value": "41425"
+  },
+  {
+    "photo": "7034.jpg",
+    "model": "BMW 4-series",
+    "year": "2016",
+    "brand": "BMW",
+    "value": "42845"
+  },
+  {
+    "photo": "6383.jpg",
+    "model": "Mazda MX-5 Miata",
+    "year": "2016",
+    "brand": "Mazda",
+    "value": "25750"
+  },
+  {
+    "photo": "6738.jpg",
+    "model": "Audi A7",
+    "year": "2016",
+    "brand": "Audi",
+    "value": "69225"
+  },
+  {
+    "photo": "7226.jpg",
+    "model": "Porsche Panamera",
+    "year": "2016",
+    "brand": "Porsche",
+    "value": "79150"
+  },
+  {
+    "photo": "7376.jpg",
+    "model": "Chevrolet Camaro",
+    "year": "2016",
+    "brand": "Chevrolet",
+    "value": "37295"
+  },
+  {
+    "photo": "6332.jpg",
+    "model": "Ford Mustang",
+    "year": "2016",
+    "brand": "Ford",
+    "value": "33295"
+  },
+  {
+    "photo": "6990.jpg",
+    "model": "Chevrolet Corvette Z06",
+    "year": "2016",
+    "brand": "Chevrolet",
+    "value": "80395"
+  },
+  {
+    "photo": "6320.jpg",
+    "model": "Ford Mustang Shelby GT350",
+    "year": "2016",
+    "brand": "Ford",
+    "value": "48695"
+  }
+]
