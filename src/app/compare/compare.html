@@ -1,0 +1,75 @@
+<div class="container">
+  <h1>Compar the car models</h1>
+  <div class="row">
+    <div class="col-sm-6">
+      <input type="text" placeholder="Type a car name" ng-model="car1" typeahead="car as (car.model+' ('+car.brand+')') for car in compare.cars | filter:$viewValue | limitTo:8" class="form-control">
+      <div ng-show="!car1 || !car1.value" class="text-center text-muted well">
+        <h4>Choose a car to compare</h4>
+        <br>
+        <span class="fa-stack fa-5x">
+          <i class="fa fa-square-o fa-stack-2x"></i>
+          <i class="fa fa-car fa-stack-1x"></i>
+        </span>
+      </div>
+      <table class="table table-striped" ng-show="car1 && car1.value">
+        <thead>
+          <tr>
+            <th>&nbsp;</th>
+            <th>{{car1.model}}</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th colspan="2" class="text-center">
+              <img ng-src="assets/images/{{car1.photo}}" class="img-responsive" alt="{{car1.model}}" />
+            </th>
+          </tr>
+          <tr>
+            <th scope="row">Brand</th>
+            <td>{{car1.brand}}</td>
+          </tr>
+          <tr>
+            <th scope="row">Price</th>
+            <td>U$ {{car1.value | number:0}}</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+    <div class="col-sm-6">
+      <input type="text" placeholder="Type a car name" ng-model="car2" typeahead="car as (car.model+' ('+car.brand+')') for car in compare.cars | filter:$viewValue | limitTo:8" class="form-control">
+      <div ng-show="!car2 || !car2.value" class="text-center text-muted well">
+        <h4>Choose a car to compare</h4>
+        <br>
+        <span class="fa-stack fa-5x">
+          <i class="fa fa-square-o fa-stack-2x"></i>
+          <i class="fa fa-car fa-stack-1x"></i>
+        </span>
+      </div>
+      <table class="table table-striped" ng-show="car2 && car2.value">
+        <thead>
+          <tr>
+            <th>&nbsp;</th>
+            <th>{{car2.model}}</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th colspan="2" class="text-center">
+              <img ng-src="assets/images/{{car2.photo}}" class="img-responsive" alt="{{car2.model}}" />
+            </th>
+          </tr>
+          <tr>
+            <th scope="row">Brand</th>
+            <td>{{car2.brand}}</td>
+          </tr>
+          <tr>
+            <th scope="row">Price</th>
+            <td>U$ {{car2.value | number:0}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
