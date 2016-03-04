@@ -8,7 +8,7 @@
   /** @ngInject */
   function carsApi($q, $resource) {
     var defered = null;
-    var apiUrl = '/data/cars.json';
+    var apiUrl = '../data/cars.json';
     var service = {
       apiUrl: apiUrl,
       getCars: getCars
