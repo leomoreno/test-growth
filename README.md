@@ -1,31 +1,35 @@
-# Front-end test – Growth Acceleration Partners
+# Front-end Test – Growth Acceleration Partners
 
+## Overview
 
-## Ejecutar localmente App
+This is a front-end exercise that creates a cars gallery from a JSON resource, you can explore the cars and compare them.
 
-### Clonar repositorio:
+## Run locally
+
+### Clone the **Github** repository:
 
 ```sh
 $ git clone https://github.com/leomoreno/test-growth.git
 ```
-### Instalar dependencias npm:
+
+### Install npm dependencies :
 
 ```sh
 $ npm install
 ```
 
-###  Instalar dependencias Front-end:
+###  Install front-end dependences:
 
 ```sh
 $ bower install
 ```
 
-### Usar Gulp para ejecutar
+### Gulp tasks
 
-* `gulp` or `gulp build` para hacer build de una versión optimozada de la applicación en `/dist`
-* `gulp serve` para lanzar un browser sync server a partir de los archivos fuente
-* `gulp serve:dist` para lanzar un server a partir de la versión optimizada
-* `gulp test` para lanzar los unit tests con Karma
-* `gulp test:auto` para lanzar los unit tests con Karma en watch mode
-* `gulp protractor` para lanzar los e2e tests con Protractor
-* `gulp protractor:dist` para lanzar los e2e tests con Protractor en la versión optimizada `/dist`
+* `gulp` or `gulp build` to build an optimized version of the application in `/dist`
+* `gulp serve` to launch a browser sync server on the source files
+* `gulp serve:dist` to launch a server on the optimized application
+* `gulp test` to launch unit tests with Karma
+* `gulp test:auto` to launch unit tests with Karma in watch mode
+* `gulp protractor` to launch e2e tests with Protractor
+* `gulp protractor:dist` to launch e2e tests with Protractor on the dist files
