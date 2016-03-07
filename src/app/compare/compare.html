@@ -1,7 +1,7 @@
 <div class="container">
-  <h1>Compar the car models</h1>
+  <h1>Compare models</h1>
   <div class="row">
-    <div class="col-sm-6">
+    <div class="col-xs-6">
       <input type="text" placeholder="Type a car name" ng-model="car1" typeahead="car as (car.model+' ('+car.brand+')') for car in compare.cars | filter:$viewValue | limitTo:8" class="form-control">
       <div ng-show="!car1 || !car1.value" class="text-center text-muted well">
         <h4>Choose a car to compare</h4>
@@ -25,6 +25,10 @@
             </th>
           </tr>
           <tr>
+            <th scope="row">Year</th>
+            <td>{{car1.year}}</td>
+          </tr>
+          <tr>
             <th scope="row">Brand</th>
             <td>{{car1.brand}}</td>
           </tr>
@@ -36,7 +40,7 @@
       </table>
 
     </div>
-    <div class="col-sm-6">
+    <div class="col-xs-6">
       <input type="text" placeholder="Type a car name" ng-model="car2" typeahead="car as (car.model+' ('+car.brand+')') for car in compare.cars | filter:$viewValue | limitTo:8" class="form-control">
       <div ng-show="!car2 || !car2.value" class="text-center text-muted well">
         <h4>Choose a car to compare</h4>
@@ -58,6 +62,10 @@
             <th colspan="2" class="text-center">
               <img ng-src="assets/images/{{car2.photo}}" class="img-responsive" alt="{{car2.model}}" />
             </th>
+          </tr>
+          <tr>
+            <th scope="row">Year</th>
+            <td>{{car2.year}}</td>
           </tr>
           <tr>
             <th scope="row">Brand</th>
