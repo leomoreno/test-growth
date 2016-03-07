@@ -5,16 +5,16 @@
     </div>
     <div class="col-sm-6">
       <div class="well well-sm">
-        <label`>Filter by brand</label>
+        <label>Filter by brand</label>
         <input type="text" ng-model="search" class="form-control" placeholder="Search">
       </div>
     </div>
   </div>
   <div class="row">
     <div class="col-sm-6 col-md-4" ng-repeat="car in cars.cars | orderBy:'model' | filter:{brand:search}" ng-click="cars.showCarDetails(car);">
-      <div class="well well-black well-lg text-center">
+      <div class="panel text-center">
         <h5>{{ car.model }}</h5>
-        <img ng-src="assets/images/{{ car.photo }}" alt="{{ car.model }}" class="img-thumbnail">
+        <img ng-src="assets/images/{{ car.photo }}" alt="{{ car.model }}" class="img-responsive">
         <div class="caption text-muted">
           <small>{{ car.brand }}</small>
         </div>
