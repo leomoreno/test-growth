@@ -16,9 +16,16 @@
   {
     "photo": "6252.jpg",
     "model": "Audi A5",
-    "year": "2016",
+    "year": "2015",
     "brand": "Audi",
     "value": "41425"
+  },
+  {
+    "photo": "6738.jpg",
+    "model": "Audi A7",
+    "year": "2016",
+    "brand": "Audi",
+    "value": "69225"
   },
   {
     "photo": "7034.jpg",
@@ -30,16 +37,9 @@
   {
     "photo": "6383.jpg",
     "model": "Mazda MX-5 Miata",
-    "year": "2016",
+    "year": "2015",
     "brand": "Mazda",
     "value": "25750"
-  },
-  {
-    "photo": "6738.jpg",
-    "model": "Audi A7",
-    "year": "2016",
-    "brand": "Audi",
-    "value": "69225"
   },
   {
     "photo": "7226.jpg",
@@ -58,14 +58,14 @@
   {
     "photo": "6332.jpg",
     "model": "Ford Mustang",
-    "year": "2016",
+    "year": "2015",
     "brand": "Ford",
     "value": "33295"
   },
   {
     "photo": "6990.jpg",
     "model": "Chevrolet Corvette Z06",
-    "year": "2016",
+    "year": "2015",
     "brand": "Chevrolet",
     "value": "80395"
   },
