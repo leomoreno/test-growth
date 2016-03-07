@@ -18,7 +18,7 @@ $ git clone https://github.com/leomoreno/test-growth.git
 $ npm install
 ```
 
-###  Install front-end dependences:
+###  Install front-end dependencies:
 
 ```sh
 $ bower install
